@@ -6,7 +6,9 @@ import guru.springframework.spring6webapp.domain.Author;
 import guru.springframework.spring6webapp.domain.Book;
 import guru.springframework.spring6webapp.repositories.AuthorRepository;
 import guru.springframework.spring6webapp.repositories.BookRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BootstrapData implements CommandLineRunner{
     private final AuthorRepository authorRepository;
     private final BookRepository bookRepository;
