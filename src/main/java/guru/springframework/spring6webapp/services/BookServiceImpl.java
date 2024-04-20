@@ -1,4 +1,4 @@
-package guru.services;
+package guru.springframework.spring6webapp.services;
 
 import org.springframework.stereotype.Service;
 
